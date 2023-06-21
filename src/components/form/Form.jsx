@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
 import { formStyle, labelStyle, inputStyle, buttonStyle } from 'components/styles';
+
+
 export const ContactForm = ({ handleSubmit }) => (
-    
-    
+        
     <form onSubmit={handleSubmit} style={formStyle}>
       <label style={labelStyle}>
         Name
